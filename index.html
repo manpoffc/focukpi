@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interactive Quiz App</title>
+</head>
+
+<body>
+    <div id="quiz-container">
+        <h1>Interactive Quiz</h1>
+        <p id="question">Question 1: Which planet is known as the Red Planet?</p>
+        <form id="answer-form">
+            <input type="radio" name="answer" value="Earth"> Earth<br>
+            <input type="radio" name="answer" value="Mars"> Mars<br>
+            <input type="radio" name="answer" value="Jupiter"> Jupiter<br>
+            <input type="radio" name="answer" value="Venus"> Venus<br>
+        </form>
+        <button id="next-button">Next</button>
+        <button id="submit-button" style="display: none;">Submit</button>
+        <div id="results" style="display: none;">
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
